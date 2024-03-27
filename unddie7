@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Buchverkauf</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Willkommen beim Buchverkauf</h1>
+  </header>
+  <main>
+    <section id="chapter">
+      <h2>Kapitel 1: Beispielkapitel</h2>
+      <p>Dies ist das Beispielkapitel. Kaufe das Kapitel für 1 Euro.</p>
+      <button onclick="buyChapter()">Kapitel kaufen (1 Euro)</button>
+    </section>
+    <section id="purchased-chapters">
+      <h2>Gekaufte Kapitel</h2>
+      <ul id="chapter-list"></ul>
+    </section>
+  </main>
+  <footer>
+    <p>&copy; 2024 Buchverkauf</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
